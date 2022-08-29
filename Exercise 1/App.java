@@ -62,20 +62,22 @@ public class App {
 	       Gun.Weight = 15.3;
 	       Gun.Rarity = "SS+";
 	       Gun.Description = " This is the Pistol of the one and only Ricardo Dalisay.";
-	       
+	       Gun.WeaponDescription();
+		 
 	       Weapon Spear = new Weapon();
 	       Spear.Name = "Gae Bolg";
 	       Spear.Damage = 72;
 	       Spear.Weight = 43.5;
 	       Spear.Rarity = "A+";
 	       Spear.Description = " Gae Bolg is the cursed spear of the lancer servant in the game fate grand order Cu Chulainn";
-	       
+	       Spear.WeaponDescription();
+		 
 	       Weapon Knife = new Weapon();
 	       Knife.Name = "Slaughter Demon";
 	       Knife.Damage = 50;
 	       Knife.Weight = 24.8;
 	       Knife.Rarity = "A-";
 	       Knife.Description = "Slaughter Demon is a wide-edged dagger used by Nanami Kento of Jujutsu Kaisen that is capable of slicing off cursed spirits' limbs with ease.";
-	       
+	       Knife.WeaponDescription();
 	 }
 }
